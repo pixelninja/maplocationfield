@@ -11,11 +11,11 @@
 			try {
 				Symphony::Database()->query("
 					CREATE TABLE `tbl_fields_maplocation` (
-						`id` int(11) unsigned NOT NULL auto_increment,
-						`field_id` int(11) unsigned NOT NULL,
+						`id` int(11) NOT NULL auto_increment,
+						`field_id` int(11) NOT NULL,
 						`default_location` varchar(60) NOT NULL,
 						`default_location_coords` varchar(60) NOT NULL,
-						`default_zoom` int(11) unsigned NOT NULL,
+						`default_zoom` int(11) NOT NULL,
 						`api_key` text default NULL,
 						PRIMARY KEY (`id`),
 						UNIQUE KEY `field_id` (`field_id`)
