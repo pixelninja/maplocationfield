@@ -24,6 +24,10 @@
 		<item type="image" url="https://cloud.githubusercontent.com/assets/446874/20055986/31cd4f4a-a4e4-11e6-934c-4a774c85d418.png">Map Location Field: Plot locations on a Google Map. Supports address geocoding.</item>
 	</media>
 	<releases>
+		<release version="3.4.5" date="2020-04-06" min="2.7.x" max="2.x.x">
+	    		- fix for count() function php7.4
+	    		- remove unsigned from DB table
+		</release>
 		<release version="3.4.5" date="2018-01-30" min="2.3.x" max="2.x.x">
 			- More compatibility with PHP7
 		</release>
